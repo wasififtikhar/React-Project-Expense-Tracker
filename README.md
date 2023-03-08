@@ -1,6 +1,6 @@
 # Project Current status
 
-This project is now under development.
+project is under development.
 
 
 # Getting Started with Create React App
