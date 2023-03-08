@@ -1,4 +1,4 @@
-# Project Cirrent status
+# Project Current status
 
 This project is now under development.
 
