@@ -1,4 +1,6 @@
+import HeaderTitle from "./components/Header/HeaderTitle";
 import Expense from "./components/Expenses/Expense";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 function App() {
   const expenses = [
@@ -24,7 +26,11 @@ function App() {
   ];
 
   return (
-   <Expense items={expenses} />
+    <div>
+      <HeaderTitle />
+      <NewExpense />
+      <Expense items={expenses} />
+    </div>
   );
 }
 
