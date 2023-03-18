@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-Project-Expense-Tracker/static/css/main.7d16d24c.css",
-    "main.js": "/React-Project-Expense-Tracker/static/js/main.b6811807.js",
+    "main.css": "/React-Project-Expense-Tracker/static/css/main.3c682855.css",
+    "main.js": "/React-Project-Expense-Tracker/static/js/main.c334445e.js",
     "index.html": "/React-Project-Expense-Tracker/index.html",
-    "main.7d16d24c.css.map": "/React-Project-Expense-Tracker/static/css/main.7d16d24c.css.map",
-    "main.b6811807.js.map": "/React-Project-Expense-Tracker/static/js/main.b6811807.js.map"
+    "main.3c682855.css.map": "/React-Project-Expense-Tracker/static/css/main.3c682855.css.map",
+    "main.c334445e.js.map": "/React-Project-Expense-Tracker/static/js/main.c334445e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d16d24c.css",
-    "static/js/main.b6811807.js"
+    "static/css/main.3c682855.css",
+    "static/js/main.c334445e.js"
   ]
 }
