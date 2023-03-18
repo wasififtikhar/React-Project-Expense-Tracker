@@ -17,10 +17,21 @@
   }
   
   .expense-item h2 {
-    color: #3a3a3a;
     font-size: 1rem;
     margin: 0 1rem;
     color: white;
+  }
+  .headding-title{
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    color: rgb(220, 220, 220, 0.5);
+    display: block;
+  }
+  .headding-amount{
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    color: rgba(255, 0, 0, 0.5);
+    /* display: block; */
   }
   
   .expense-item__price {
@@ -33,6 +44,10 @@
     border-radius: 12px;
   }
   
+  .heading{
+
+  }
+
   @media (min-width: 580px) {
     .expense-item__description {
       flex-direction: column;

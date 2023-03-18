@@ -25,10 +25,15 @@ function App() {
     },
   ];
 
+  const acceptExpense = newExpense => {
+      console.log("App.js");
+      console.log(newExpense);
+  };
+
   return (
     <div>
       <HeaderTitle />
-      <NewExpense />
+      <NewExpense toAddNewExpense={acceptExpense}/>
       <Expense items={expenses} />
     </div>
   );

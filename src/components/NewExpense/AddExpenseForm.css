@@ -12,6 +12,7 @@
     display: block;
     color: #ccc;
     text-align: center;
+    font-size: 12px;
   }
   
   .new-expense__control input {
