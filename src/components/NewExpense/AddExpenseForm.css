@@ -28,4 +28,8 @@
     width: 100%;
     display: flex;
     justify-content: end;
+    gap: 2;
+  }
+  .btn-cnl{
+    margin-right: 8px;
   }

@@ -23,7 +23,7 @@ const AddExpenseForm = (props) => {
       const expenseData = {
         title: newTitle,
         amount:newAmount,
-        data: new Date(newDate)
+        date: new Date(newDate)
       };
       props.toExtractNewExpenseData(expenseData)
       setNewTitle('');
@@ -58,6 +58,7 @@ const AddExpenseForm = (props) => {
           />
         </div>
         <div className="new-expense__actions">
+          <button type="button" className="btn-cnl" onClick={props.onCancel}>Cancel</button>
           <button type="submit">Add Expense</button>
         </div>
       </div>
